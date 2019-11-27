@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>照片墙</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        img {
+            width: 100px;
+            height: 75px;
+        }
+        .box {
+            width: 560px;
+            height: 348px;
+            margin: 300px auto;
+        }
+        .box div {
+            position: relative;
+            width: 106px;
+            height: 81px;
+            border: 3px solid #efedf0;
+            float: left;
+            text-align: center;
+        }
+        .box div:hover img {
+            position: absolute;
+            width: 200px;
+            height: 150px;
+            margin-left: -100px;
+            margin-top: -50px;
+            z-index: 9999;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div><img src="img/photo01.png"></div>
+        <div><img src="img/photo02.png"></div>
+        <div><img src="img/photo03.png"></div>
+        <div><img src="img/photo04.png"></div>
+        <div><img src="img/photo05.png"></div>
+        <div><img src="img/photo06.png"></div>
+        <div><img src="img/photo07.png"></div>
+        <div><img src="img/photo08.png"></div>
+        <div><img src="img/photo09.png"></div>
+        <div><img src="img/photo10.png"></div>
+        <div><img src="img/photo11.png"></div>
+        <div><img src="img/photo12.png"></div>
+        <div><img src="img/photo13.png"></div>
+        <div><img src="img/photo14.png"></div>
+        <div><img src="img/photo15.png"></div>
+        <div><img src="img/photo16.png"></div>
+        <div><img src="img/photo17.png"></div>
+        <div><img src="img/photo18.png"></div>
+        <div><img src="img/photo19.png"></div>
+        <div><img src="img/photo20.png"></div>
+    </div>
+</body>
+
+</html>
